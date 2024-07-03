@@ -51,8 +51,6 @@ export default function App() {
         setLastNumber(currentNumber + " = ")
         calculator()
         return
-      case '+/-':
-        return
     }
 
     setCurrentNumber(currentNumber + buttonPressed)
